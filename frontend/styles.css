@@ -85,6 +85,8 @@ body {
 
 /* Form Elements */
 .input-area {
+  direction: rtl;
+  text-align: right;
   width: 100%;
   padding: 16px;
   margin-top: 15px;

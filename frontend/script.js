@@ -42,6 +42,12 @@ class Translator {
       return;
     }
 
+    const isArabic = /[\u0600-\u06FF]/.test(text);
+    if (!isArabic) {
+      alert("I no speaka da English");
+      return;
+    }
+
     this.setLoadingState(true);
 
     try {
