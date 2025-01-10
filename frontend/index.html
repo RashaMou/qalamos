@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qalamos</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="beta-badge">BETA</div>
+      <h1 class="logo">Qalamos</h1>
+      <p class="description">IJMES-compliant Arabic transliteration</p>
+      <!doctype html>
+
+      <textarea
+        class="input-area"
+        placeholder="Enter Arabic text here..."
+        rows="4"
+      ></textarea>
+
+      <button class="translate-button">Transliterate</button>
+
+      <div class="results">
+        <h3>Results</h3>
+        <p><strong>Diacriticized:</strong></p>
+        <pre id="diacriticized"></pre>
+        <p><strong>Transliterated:</strong></p>
+        <pre id="transliterated"></pre>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Found an issue? Help us improve! Contact us at
+      <a href="mailto:feedback@qalamos.com">feedback@qalamos.com</a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
